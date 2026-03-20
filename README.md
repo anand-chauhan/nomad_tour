@@ -3,7 +3,8 @@
 A simple and interactive web application for cyclists to check weather conditions before going for a ride. Built using HTML, CSS, and 
 JavaScript, this project uses a Weather API to provide real-time weather updates.
 
-link :- https://anand-chauhan.github.io/nomad_tour/
+link :- https://anand-chauhan.github.io/nomad_tour
+
 🌟 Features
 🌤️ Check real-time weather conditions
 📍 Search weather by city name
@@ -12,12 +13,14 @@ link :- https://anand-chauhan.github.io/nomad_tour/
 ⚡ Fast and lightweight UI
 
 🛠️ Tech Stack
+
 HTML – Structure of the application
 CSS – Styling and layout
 JavaScript (ES6) – Logic and API handling
 Weather API – Fetch real-time weather data
 
 📂 Project Structure
+
 Nomad-Cyclist/
 │
 ├── index.html
@@ -40,11 +43,6 @@ fetch(`https://api.weatherapi.com/v1/current.json?key=YOUR_API_KEY&q=${city}`)
   .then(data => {
     console.log(data);
   });
-🚀 How to Run the Project
-
-Clone the repository:
-
-git clone https://github.com/your-username/nomad-cyclist.git
 
 Open index.html in your browser
 Add your API key in script.js
